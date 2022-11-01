@@ -1,116 +1,18 @@
-readme.so logo
-
-light
-Download
-SectionsReset
-
-Delete
-Click on a section below to edit the contents
-
-
-
-
-
-
-
-Draggable item custom-command-interpreter was dropped over droppable area custom-command-interpreter
-Click on a section below to add it to your readme
-
-Custom Section
-
-Acknowledgements
-
-API Reference
-
-Appendix
-
-Authors
-
-Badges
-
-Color Reference
-
-Contributing
-
-Command Interpreter
-
-Demo
-
-Deployment
-
-Documentation
-
-Environment Variables
-
-FAQ
-
-Features
-
-Feedback
-
-Github Profile - About Me
-
-Github Profile - Introduction
-
-Github Profile - Links
-
-Github Profile - Other
-
-Github Profile - Skills
-
-Installation
-
-Lessons
-
-License
-
-Logo
-
-Optimizations
-
-Related
-
-Roadmap
-
-Run Locally
-
-Screenshots
-
-Support
-
-Tech
-
-Running Tests
-
-Usage/Examples
-
-Used By
-Editor
-
-## Authors
-
-@Josh-121
-
-@FrancisOkolo
-Find
-No results
-Preview
-Raw
-AirBnB clone - The console
-Descripton
-The AirBnB is a website which presents a digital platform to access the services of a privately owned lodging available for rents and you could sort through the listings by location - by state and city as well as amenities available at each AirBnB.
+## AirBnB clone - The console
+# Descripton
+The AirBnB is a website which presents a digital platform to access the services of a privately owned lodging available for rents and you could sort through the listings by location - by state and city as well as amenities available at each AirBnB.<br>
 
 This project is to build a structural basis for data access, manipulation and database storage behind the hood of this website
 
-Concepts
-Command interpreter
-Data Structures/Model
-Storage Engine
-JSON format
-Command interpreter
-A command interpreter is the part of a computer operating system that understands and executes commands that are entered interactively by a human being or from a program. In some operating systems, the command interpreter is called the shell.
+# Concepts
+Command interpreter<br>
+Data Structures/Model<br>
+Storage Engine<br>
+JSON format<br>
+# Command interpreter
+A command interpreter is the part of a computer operating system that understands and executes commands that are entered interactively by a human being or from a program. In some operating systems, the command interpreter is called the shell.<br>
 
-Our shell is limited to a specific use case which enable us to manage the objects of our project:
+Our shell is limited to a specific use case which enable us to manage the objects of our project:<br>
 
 -> Create a new object (ex: a new User or a new Place)
 
@@ -124,36 +26,36 @@ Our shell is limited to a specific use case which enable us to manage the object
 
 With our command line interpreter, we are creating a base for future projects such as HTML/CSS templating, database storage, API, front-end integration…
 
-How to start the Command interpreter
+# How to start the Command interpreter
 we created a program called 'console.py' that contains the entry point of the command interpreter. Running this program on the command line starts up the shell. This shell was built using the python Cmd module with the class definition class HBNBCommand(cmd.Cmd):
 
-How to use the Shell interpreter
+# How to use the Shell interpreter
 The following features are built in our command interpreter:
 
-1. quit and EOF to exit the program
+1. quit and EOF to exit the program<br>
 
 2. help (this action is provided by default by cmd but you should keep it 
-    updated and documented as you work through tasks)
+    updated and documented as you work through tasks)<br>
 
-3. a custom prompt: (hbnb)
+3. a custom prompt: (hbnb)<br>
 
-4. an empty line + ENTER shouldn’t execute anything
+4. an empty line + ENTER shouldn’t execute anything<br>
 
 5. create: Creates a new instance of our BaseModel, saves it (to the JSON file)
-   and prints the id. Ex: $ create BaseModel
+   and prints the id. Ex: $ create BaseModel<br>
 
 6. show: Prints the string representation of an 
-   instance based on the class name and id
+   instance based on the class name and id<br>
 
 7. destroy: Deletes an instance based on the 
-   class name and id (save the change into the JSON file).
+   class name and id (save the change into the JSON file).<br>
 
 8. all: Prints all string representation of all instances
-   based or not on the class name.
+   based or not on the class name.<br>
 
 9. update: Updates an instance based on the class name and id 
-   by adding or updating attribute (save the change into the JSON file).
-Examples
+   by adding or updating attribute (save the change into the JSON file).<br>
+# Examples
 1. $ create BaseModel
     If the class name is missing, print ** class name missing ** (ex: $ create)
     If the class name doesn’t exist, print ** class doesn't exist 
@@ -189,20 +91,20 @@ Examples
     id, created_at and updated_at cant’ be updated. You can assume they won’t be passed in the update command
     Only “simple” arguments can be updated: string, integer and float. You can assume nobody will try to 
     update list of ids or datetime
-Data Structures/Model
+# Data Structures/Model
 A base model defines a class which suffices for our website methods 'foundation'. Most functions and fields in our overall framework would inherit this class. Essentially, this class renders all data inputs into their appropriate structures and format.
 
-Storage Engine
+# Storage Engine
 For this stage, our basic storages are simple python modules. These modules accepts JSON strings and allows for deserialization to class instances.
 
-JSON format
+# JSON format
 JSON stands for Javascript Object Notation and is a convenient and human-readable way to represent data. In this project mosts and the data structure packets are rendered to JSON format for ease of file storage.
 
-Bugs
+# Bugs
 No Bugs
 
-Authors
-@Josh-121
+# Authors
+@Josh-121<br>
 
-@FrancisOkolo
+@FrancisOkolo<br>
 '
