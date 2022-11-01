@@ -1,15 +1,15 @@
-## AirBnB clone - The console
-# Descripton
+# AirBnB clone - The console
+## Descripton
 The AirBnB is a website which presents a digital platform to access the services of a privately owned lodging available for rents and you could sort through the listings by location - by state and city as well as amenities available at each AirBnB.<br>
 
 This project is to build a structural basis for data access, manipulation and database storage behind the hood of this website
 
-# Concepts
+## Concepts
 Command interpreter<br>
 Data Structures/Model<br>
 Storage Engine<br>
 JSON format<br>
-# Command interpreter
+## Command interpreter
 A command interpreter is the part of a computer operating system that understands and executes commands that are entered interactively by a human being or from a program. In some operating systems, the command interpreter is called the shell.<br>
 
 Our shell is limited to a specific use case which enable us to manage the objects of our project:<br>
@@ -26,10 +26,10 @@ Our shell is limited to a specific use case which enable us to manage the object
 
 With our command line interpreter, we are creating a base for future projects such as HTML/CSS templating, database storage, API, front-end integration…
 
-# How to start the Command interpreter
+## How to start the Command interpreter
 we created a program called 'console.py' that contains the entry point of the command interpreter. Running this program on the command line starts up the shell. This shell was built using the python Cmd module with the class definition class HBNBCommand(cmd.Cmd):
 
-# How to use the Shell interpreter
+## How to use the Shell interpreter
 The following features are built in our command interpreter:
 
 1. quit and EOF to exit the program<br>
@@ -55,7 +55,7 @@ The following features are built in our command interpreter:
 
 9. update: Updates an instance based on the class name and id 
    by adding or updating attribute (save the change into the JSON file).<br>
-# Examples
+## Examples
 1. $ create BaseModel
     If the class name is missing, print ** class name missing ** (ex: $ create)
     If the class name doesn’t exist, print ** class doesn't exist 
@@ -91,19 +91,19 @@ The following features are built in our command interpreter:
     id, created_at and updated_at cant’ be updated. You can assume they won’t be passed in the update command
     Only “simple” arguments can be updated: string, integer and float. You can assume nobody will try to 
     update list of ids or datetime
-# Data Structures/Model
+## Data Structures/Model
 A base model defines a class which suffices for our website methods 'foundation'. Most functions and fields in our overall framework would inherit this class. Essentially, this class renders all data inputs into their appropriate structures and format.
 
-# Storage Engine
+## Storage Engine
 For this stage, our basic storages are simple python modules. These modules accepts JSON strings and allows for deserialization to class instances.
 
-# JSON format
+## JSON format
 JSON stands for Javascript Object Notation and is a convenient and human-readable way to represent data. In this project mosts and the data structure packets are rendered to JSON format for ease of file storage.
 
-# Bugs
+## Bugs
 No Bugs
 
-# Authors
+## Authors
 @Josh-121<br>
 
 @FrancisOkolo<br>
